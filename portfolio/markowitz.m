@@ -1,7 +1,7 @@
 % https://s3.amazonaws.com/quandl-production-static/BSE+Descriptions/stocks.txt
 clear;
 format bank;
-apikey = 'gCPzx9TDegkwWXysk1-r';
+apikey = '';
 c = quandl(apikey);
 
 stocks = [ ...
