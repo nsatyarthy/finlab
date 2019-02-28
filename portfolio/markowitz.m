@@ -25,11 +25,6 @@ returns = diff(d);
 mean = mean(returns);
 covar = cov(returns);
 
-weights = rand(size(stocks, 2), 1);
-weights = weights / sum(weights);
-disp(sum(weights));
-
-
 n = 1000000;
 erets = zeros(1, n);
 evars = zeros(1, n);
